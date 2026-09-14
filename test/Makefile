@@ -44,7 +44,9 @@ COMPILE_ARGS 		+= -I$(SRC_DIR)
 
 # Include the testbench sources:
 VERILOG_SOURCES += $(PWD)/tb.v
-TOPLEVEL = tb
+
+# SỬA TẠI ĐÂY: TOPLEVEL phải là tên top module Verilog (tt_um_ntt_top)
+TOPLEVEL = tt_um_ntt_top
 
 # List test modules to run, separated by commas and without the .py suffix:
 COCOTB_TEST_MODULES = test
