@@ -8,7 +8,7 @@ project:
   clock_hz:     50000000
 
   # Kích thước 2x2 để tránh lỗi tràn diện tích (Placement/Routing congestion)
-  tiles: "2x2"
+  tiles: "4x2"
 
   # Top module chuẩn khớp với file project.v
   top_module:  "tt_um_ntt_top"
