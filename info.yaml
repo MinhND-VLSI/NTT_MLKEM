@@ -14,7 +14,7 @@ project:
   top_module:  "tt_um_ntt_top"
 
   # Danh sách toàn bộ các file Verilog nguồn
-  source_files:
+  source_files: 
     - "project.v"
     - "ntt_top_dual.v"
     - "ntt_fsm_rom_dual.v"
